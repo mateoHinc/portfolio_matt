@@ -16,7 +16,9 @@ export default function useTheme() {
     root.classList.toggle("dark", dark);
     try {
       localStorage.setItem("theme:dark", String(dark));
-    } catch {}
+    } catch {
+      console.log("");
+    }
   }, [dark]);
 
   return { dark, toggle: () => setDark((v) => !v) };
