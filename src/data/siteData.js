@@ -13,7 +13,7 @@ export const PROFILE_TEXT = {
 
 export const PROFILE = {
   name: "Mateo Hincapié Giraldo",
-  photo: "",
+  photo: "/public/skull.jpg",
   location: { es: "Medellín, Colombia", en: "Medellin, Colombia" },
 };
 
