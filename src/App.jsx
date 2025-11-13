@@ -3,6 +3,9 @@ import useTheme from "./hooks/useTheme";
 import useAccent from "./hooks/useAccent";
 import useLang from "./hooks/useLang";
 
+// Sections
+import Hero from "./sections/Hero";
+
 // Components
 import Header from "./components/Header";
 
@@ -22,6 +25,9 @@ function App() {
         lang={lang}
         onToggleLang={toggleLang}
       />
+      <main>
+        <Hero t={t} lang={lang} />
+      </main>
     </div>
   );
 }
