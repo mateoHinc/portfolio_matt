@@ -23,7 +23,7 @@ export default function Header({
   ];
 
   return (
-    <header className="top-0 z-40 sticky supports-[backdrop-filter]:bg-white/60 dark:supports-[backdrop-filter]:bg-neutral-900/60 backdrop-blur border-neutral-200 dark:border-neutral-800 border-b">
+    <header className="top-0 z-40 sticky supports-backdrop-filter:bg-white/60 dark:supports-backdrop-filter:bg-neutral-900/60 backdrop-blur border-neutral-200 dark:border-neutral-800 border-b">
       <nav className="relative flex items-center gap-2 sm:gap-3 lg:gap-4 mx-auto px-4 py-3 max-w-6xl">
         <a href="#inicio" className="mr-2 font-semibold text-base sm:text-lg">
           {PROFILE.name.split(" ")[0]}
