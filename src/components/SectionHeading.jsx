@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 const prefersReduced =
   typeof window !== "undefined" &&
@@ -24,7 +24,7 @@ export default function SectionHeading({ id, children }) {
       whileInView="visible"
       viewport={{ once: true }}
     >
-      <span className="inline-block bg-gradient-to-b rounded w-2 h-6 from-(--accent-from) to-(--accent-to)">
+      <span className="inline-block bg-linear-to-b rounded w-2 h-6 from-(--accent-from) to-(--accent-to)">
         {children}
       </span>
     </motion.h2>
