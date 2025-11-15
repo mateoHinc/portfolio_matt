@@ -5,6 +5,7 @@ import useLang from "./hooks/useLang";
 
 // Sections
 import Hero from "./sections/Hero";
+import Studies from "./sections/Studies";
 
 // Components
 import Header from "./components/Header";
@@ -27,6 +28,7 @@ function App() {
       />
       <main>
         <Hero t={t} lang={lang} />
+        <Studies t={t} lang={lang} />
       </main>
     </div>
   );
