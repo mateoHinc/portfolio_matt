@@ -108,7 +108,7 @@ export const SKILLS = [
   { name: "React JS", level: 55, logo: "" },
   { name: "Angular", level: 40, logo: "" },
   { name: "Tainwind CSS", level: 55, logo: "" },
-  { name: "Git", level: 60, logo: "" },
+  { name: "Git", level: 45, logo: "" },
   { name: "Linux", level: 30, logo: "" },
   { name: "MySQL", level: 65, logo: "" },
   { name: "SQL Server", level: 65, logo: "" },

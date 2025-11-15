@@ -1,5 +1,6 @@
 import { motion } from "motion/react";
 import { PROFILE_TEXT, PROFILE } from "../data/siteData";
+import useTheme from "../hooks/useTheme";
 
 const prefersReduced =
   typeof window !== "undefined" &&
@@ -7,6 +8,8 @@ const prefersReduced =
   window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 export default function Hero({ t, lang }) {
+  const { dark } = useTheme();
+
   return (
     <section
       id="inicio"
@@ -24,10 +27,14 @@ export default function Hero({ t, lang }) {
         >
           {PROFILE_TEXT[lang].role}
         </h1>
-        <p className="mb-4 text-neutral-600 dark:text-neutral-300">
+        <p className={`mb-4 ${dark ? "text-neutral-400" : "text-gray-800"}`}>
           {PROFILE_TEXT[lang].summary}
         </p>
-        <ul className="space-y-1 text-neutral-500 dark:text-neutral-400 text-sm">
+        <ul
+          className={`space-y-1 text-sm ${
+            dark ? "text-neutral-400" : "text-gray-800"
+          }`}
+        >
           <li>
             <strong>{t.labels.name}:</strong> {PROFILE.name}
           </li>
