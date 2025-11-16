@@ -1,6 +1,5 @@
 import SectionHeading from "../components/SectionHeading";
 import { STUDIES } from "../data/siteData";
-import useTheme from "../hooks/useTheme";
 
 export default function Studies({ t, lang }) {
   return (
