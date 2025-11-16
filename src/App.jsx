@@ -7,6 +7,7 @@ import useLang from "./hooks/useLang";
 import Hero from "./sections/Hero";
 import Studies from "./sections/Studies";
 import Experience from "./sections/Experience";
+import Skills from "./sections/Skills";
 
 // Components
 import Header from "./components/Header";
@@ -37,6 +38,7 @@ function App() {
         <Hero t={t} lang={lang} />
         <Studies t={t} lang={lang} />
         <Experience t={t} lang={lang} />
+        <Skills t={t} />
       </main>
     </div>
   );
