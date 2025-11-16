@@ -68,8 +68,18 @@ export const EXPERIENCE = [
     period: { es: "Jul 2023 - Dic 2023", en: "Jul 2023 - Dec 2023" },
     location: { es: "Medellín (Híbrido)", en: "Medellín (Hybrid)" },
     achievements: {
-      es: [""],
-      en: [""],
+      es: [
+        "Desarrollo y mantenimiento de funcionalidades en PHP y Laravel.",
+        "Desarrollador encargado de implementar, mantener y mejorar módulos del sistema SISEDUCA, utilizando PHP, Laravel y PostgreSQL.",
+        "Garantizando el correcto funcionamiento de la plataforma, optimizando procesos académicos y administrativos mediante soluciones eficientes y seguras.",
+        "Documentación técnica y ejecución de pruebas.",
+      ],
+      en: [
+        "Development and maintenance of functionalities in PHP and Laravel.",
+        "Developer responsible for implementing, maintaining, and improving SISEDUCA system modules using PHP, Laravel, and PostgreSQL.",
+        "Ensuring the proper functioning of the platform, optimising academic and administrative processes through efficient and secure solutions.",
+        "Technical documentation and testing.",
+      ],
     },
     tech: ["PHP", "Laravel", "Javascript", "Bootstrap", "PostgreSQL", "Github"],
   },
