@@ -6,7 +6,7 @@ export default function SkillItem({ name, level, logo }) {
       <div className="flex items-center gap-3 mb-3">
         {logo ? (
           <img
-            src="logo"
+            src={logo}
             alt={`${name} logo`}
             className="w-7 h-7 object-contain"
           />
