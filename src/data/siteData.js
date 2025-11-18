@@ -20,11 +20,11 @@ export const PROFILE = {
 export const CONTACT = {
   facebook: "https://www.facebook.com/?locale=es_LA",
   instagram: "https://www.instagram.com/matt_hinc/",
-  whatsapp: "https://web.whatsapp.com/",
+  whatsapp: "wa.me/573245409415",
 };
 
 export const CV = {
-  url: "/public/cv/CV de Mateo Hincapie Giraldo v1.pdf",
+  url: "/public/cv/CV de Mateo Hincapie Giraldo v2.pdf",
   filename: "Mateo_Hincapie_CV",
   sizeMB: 0.279,
   lastUpdated: { es: "Oct 2025", en: "Oct 2025" },
@@ -177,7 +177,7 @@ export const I18N = {
     labels: {
       name: "Nombre",
       location: "Ubicación",
-      downloadCV: "DescargarCV",
+      downloadCV: "Descargar CV",
       viewInBrowser: "Ver en el navegador",
       demo: "Demo",
       code: "Código",
