@@ -24,9 +24,8 @@ export default function SectionHeading({ id, children }) {
       whileInView="visible"
       viewport={{ once: true }}
     >
-      <span className="inline-block bg-linear-to-b rounded w-2 h-6 from-(--accent-from) to-(--accent-to)">
-        {children}
-      </span>
+      <span className="inline-block bg-linear-to-b rounded w-2 h-6 from-(--accent-from) to-(--accent-to)" />
+      {children}
     </motion.h2>
   );
 }
