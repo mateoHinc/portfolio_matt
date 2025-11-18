@@ -9,6 +9,7 @@ import Studies from "./sections/Studies";
 import Experience from "./sections/Experience";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
+import CVSection from "./sections/CVSection";
 
 // Components
 import Header from "./components/Header";
@@ -41,6 +42,7 @@ function App() {
         <Experience t={t} lang={lang} />
         <Skills t={t} />
         <Projects t={t} lang={lang} />
+        <CVSection t={t} lang={lang} />
       </main>
     </div>
   );
