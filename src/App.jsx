@@ -8,6 +8,7 @@ import Hero from "./sections/Hero";
 import Studies from "./sections/Studies";
 import Experience from "./sections/Experience";
 import Skills from "./sections/Skills";
+import Projects from "./sections/Projects";
 
 // Components
 import Header from "./components/Header";
@@ -39,6 +40,7 @@ function App() {
         <Studies t={t} lang={lang} />
         <Experience t={t} lang={lang} />
         <Skills t={t} />
+        <Projects t={t} lang={lang} />
       </main>
     </div>
   );
