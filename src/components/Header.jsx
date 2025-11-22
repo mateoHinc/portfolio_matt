@@ -53,6 +53,7 @@ export default function Header({
           accent={accent}
           onPickAccent={onPickAccent}
           label={t.labels.accent}
+          accentLabels={t.labels.accentColors}
         />
         <button
           onClick={onToggleLang}

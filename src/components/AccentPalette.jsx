@@ -6,8 +6,11 @@ export default function AccentPalette({
   accent,
   onPickAccent,
   label = "Acento",
+  accentLabels = {},
 }) {
   const [open, setOpen] = useState(false);
+
+  const accentName = accentLabels[accent] || accent;
 
   return (
     <div className="relative">
@@ -18,7 +21,9 @@ export default function AccentPalette({
         className="inline-flex items-center gap-2 hover:bg-neutral-100 dark:hover:bg-neutral-800 p-2 border border-neutral-200 dark:border-neutral-800 rounded-xl"
       >
         <Palette className="w-5 h-5" />
-        <span className="hidden sm:inline text-sm capitalize">{accent}</span>
+        <span className="hidden sm:inline text-sm capitalize">
+          {accentName}
+        </span>
         <span
           className="bg-grandient-to-r rounded-full w-3 h-3 from-(--accent-from) to-(--accent-to)"
           aria-hidden

@@ -177,6 +177,12 @@ export const I18N = {
       contact: "Contacto",
     },
     labels: {
+      accentColors: {
+        morado: "Morado",
+        rojo: "Rojo",
+        amarillo: "Amarillo",
+        azul: "Azul",
+      },
       name: "Nombre",
       location: "Ubicación",
       downloadCV: "Descargar CV",
@@ -208,6 +214,12 @@ React, Tailwind y Framer Motion.`,
       contact: "Contact",
     },
     labels: {
+      accentColors: {
+        morado: "Purple",
+        rojo: "Red",
+        amarillo: "Yellow",
+        azul: "Blue",
+      },
       name: "Name",
       location: "Location",
       downloadCV: "Download CV",
