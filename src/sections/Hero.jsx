@@ -50,13 +50,23 @@ export default function Hero({ t, lang }) {
         className="order-1 md:order-2"
       >
         <div className="relative mx-auto w-40 sm:w-56 md:w-72 h-40 sm:h-56 md:h-72">
-          <motion.img
-            src={PROFILE.photo}
-            alt="Picture"
-            className="shadow-lg border border-neutral-200 dark:border-neutral-800 rounded-2xl w-full h-full object-cover"
-            whileHover={{ scale: prefersReduced ? 1 : 1.02 }}
-            transition={{ duration: prefersReduced ? 0 : 0.4 }}
-          />
+          <div className="group relative w-full h-full cursor-pointer">
+            <motion.img
+              src={PROFILE.photo}
+              alt="Picture"
+              className="absolute inset-0 group-hover:opacity-0 shadow-lg border border-neutral-200 dark:border-neutral-800 rounded-2xl w-full h-full object-cover transition-opacity duration-500"
+              // whileHover={{ scale: prefersReduced ? 1 : 1.02 }}
+              // transition={{ duration: prefersReduced ? 0 : 0.4 }}
+            />
+            <motion.img
+              src={PROFILE.photo2}
+              alt="Picture Hover"
+              className="absolute inset-0 opacity-0 group-hover:opacity-100 shadow-lg border border-neutral-200 dark:border-neutral-800 rounded-2xl w-full h-full object-cover transition-opacity duration-500"
+              // whileHover={{ scale: prefersReduced ? 1 : 1.02 }}
+              // transition={{ duration: prefersReduced ? 0 : 0.4 }}
+            />
+          </div>
+
           <div
             className="-z-10 absolute -inset-1 blur-2xl rounded-3xl"
             style={{
