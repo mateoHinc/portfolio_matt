@@ -14,6 +14,8 @@ import Contact from "./sections/Contact";
 
 // Components
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+import { PROFILE } from "./data/siteData";
 
 function App() {
   const { dark, toggle } = useTheme();
@@ -46,6 +48,7 @@ function App() {
         <CVSection t={t} lang={lang} />
         <Contact t={t} />
       </main>
+      <Footer t={t} name={PROFILE.name} />
     </div>
   );
 }
