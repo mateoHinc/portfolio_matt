@@ -22,6 +22,7 @@ export const CONTACT = {
   instagram: "https://www.instagram.com/matt_hinc/",
   whatsapp: "https://wa.me/573245409415",
   github: "https://github.com/mateoHinc",
+  linkedin: "https://www.linkedin.com/in/mateo-hincapie-giraldo-15b38b163/",
 };
 
 export const CV = {
