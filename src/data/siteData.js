@@ -20,7 +20,8 @@ export const PROFILE = {
 export const CONTACT = {
   facebook: "https://www.facebook.com/?locale=es_LA",
   instagram: "https://www.instagram.com/matt_hinc/",
-  whatsapp: "wa.me/573245409415",
+  whatsapp: "https://wa.me/573245409415",
+  github: "https://github.com/mateoHinc",
 };
 
 export const CV = {
