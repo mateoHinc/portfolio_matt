@@ -54,14 +54,14 @@ export default function Hero({ t, lang }) {
             <motion.img
               src={PROFILE.photo}
               alt="Picture"
-              className="absolute inset-0 group-hover:opacity-0 shadow-lg border border-neutral-200 dark:border-neutral-800 rounded-2xl w-full h-full object-cover transition-opacity duration-500"
+              className="absolute inset-0 group-hover:opacity-0 shadow-lg border border-neutral-200 dark:border-neutral-800 rounded-full w-full h-full object-cover transition-opacity duration-500"
               // whileHover={{ scale: prefersReduced ? 1 : 1.02 }}
               // transition={{ duration: prefersReduced ? 0 : 0.4 }}
             />
             <motion.img
               src={PROFILE.photo2}
               alt="Picture Hover"
-              className="absolute inset-0 opacity-0 group-hover:opacity-100 shadow-lg border border-neutral-200 dark:border-neutral-800 rounded-2xl w-full h-full object-cover transition-opacity duration-500"
+              className="absolute inset-0 opacity-0 group-hover:opacity-100 shadow-lg border border-neutral-200 dark:border-neutral-800 rounded-full w-full h-full object-cover transition-opacity duration-500"
               // whileHover={{ scale: prefersReduced ? 1 : 1.02 }}
               // transition={{ duration: prefersReduced ? 0 : 0.4 }}
             />
