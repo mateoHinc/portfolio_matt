@@ -13,8 +13,8 @@ export const PROFILE_TEXT = {
 
 export const PROFILE = {
   name: "Mateo Hincapié Giraldo",
-  photo: "/public/skull.jpg",
-  photo2: "/public/profilepicture.jpg",
+  photo: "/skull.jpg",
+  photo2: "/profilepicture.jpg",
   location: { es: "Medellín, Colombia", en: "Medellin, Colombia" },
 };
 
@@ -27,10 +27,18 @@ export const CONTACT = {
 };
 
 export const CV = {
-  url: "/public/cv/CV de Mateo Hincapie Giraldo v2.pdf",
-  filename: "Mateo_Hincapie_CV",
-  sizeMB: 0.279,
-  lastUpdated: { es: "Oct 2025", en: "Oct 2025" },
+  es: {
+    url: "/cv/CV de Mateo Hincapie Giraldo v2.pdf",
+    filename: "Mateo_Hincapie_CV",
+    sizeMB: 0.279,
+    lastUpdated: "Oct 2025",
+  },
+  en: {
+    url: "/cv/Mateo Hincapie Giraldo CV.pdf",
+    filename: "Mateo_Hincapie_CV",
+    sizeMB: 0.0587,
+    lastUpdated: "Oct 2025",
+  },
 };
 
 // Estudies / Experience / Skills / Projects
@@ -38,7 +46,7 @@ export const STUDIES = [
   {
     title: { es: "Ingeniería de Sistemas", en: "Systems Engineering" },
     org: {
-      es: "Instituto Tecnologico Metropolitano (ITM)",
+      es: "Instituto Tecnológico Metropolitano (ITM)",
       en: "Metropolitan Technological Institute (MTI)",
     },
     year: "2020 - 2024",
@@ -53,7 +61,7 @@ export const STUDIES = [
       en: "Information Systems Technologies",
     },
     org: {
-      es: "Instituto Tecnologico Metropolitano (ITM)",
+      es: "Instituto Tecnológico Metropolitano (ITM)",
       en: "Metropolitan Technological Institute (MTI)",
     },
     year: "2015 - 2019",
@@ -137,7 +145,7 @@ export const PROJECTS = [
       es: "Landing page animada con Framer Motion y Tailwind. Efectos suaves, secciones responsivas y enfoque en perfomance.",
       en: "Animated landing page with Framer Motion and Tailwind. Smooth effects, responsive sections, and a focus on performance.",
     },
-    cover: "/public/covers_projects/landing_darktune.png",
+    cover: "/covers_projects/landing_darktune.png",
     tags: ["React JS", "Tailwind", "Framer Motion"],
     demo: "https://darktune-music.netlify.app/",
     repo: "https://github.com/mateoHinc/streamingDarkTune",
@@ -151,7 +159,7 @@ export const PROJECTS = [
       es: "Interfaz de usuario clara y minimalista: los controles de reproducción, el listado de canciones (o géneros), la barra de progreso y otros elementos están organizados de forma sencilla y accesible.",
       en: "Clear and minimalist user interface: playback controls, song (or genre) list, progress bar, and other elements are organised in a simple and accessible way.",
     },
-    cover: "/public/covers_projects/musicplayer_darktune.png",
+    cover: "/covers_projects/musicplayer_darktune.png",
     tags: ["React JS", "Vite", "Tailwind", "TypeScript"],
     demo: "https://musicplayer-darktune.netlify.app/",
     repo: "https://github.com/mateoHinc/musicPlayerDarkTune",
