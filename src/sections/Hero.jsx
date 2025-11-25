@@ -36,10 +36,16 @@ export default function Hero({ t, lang }) {
           }`}
         >
           <li>
-            <strong>{t.labels.name}:</strong> {PROFILE.name}
+            <strong>{t.labels.name}: </strong>
+            <span className="bg-clip-text bg-linear-to-r drop-shadow-[0_0_6px_rgba(0,0,0,0.25)] font-extrabold text-transparent text-2xl sm:text-3xl from-(--accent-from) to-(--accent-to)">
+              {PROFILE.name}.
+            </span>
           </li>
           <li>
-            <strong>{t.labels.location}:</strong> {PROFILE.location[lang]}
+            <strong>{t.labels.location}: </strong>
+            <span className="bg-clip-text bg-linear-to-r drop-shadow-[0_0_6px_rgba(0,0,0,0.25)] font-extrabold text-transparent text-2xl sm:text-3xl from-(--accent-from) to-(--accent-to)">
+              {PROFILE.location[lang]}.
+            </span>
           </li>
         </ul>
       </motion.div>
