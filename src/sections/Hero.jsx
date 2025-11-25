@@ -56,7 +56,7 @@ export default function Hero({ t, lang }) {
         className="order-1 md:order-2"
       >
         <div className="relative mx-auto w-40 sm:w-56 md:w-72 h-40 sm:h-56 md:h-72">
-          <div className="group relative w-full h-full cursor-pointer">
+          <div className="group z-10 relative w-full h-full cursor-pointer">
             <motion.img
               src={PROFILE.photo}
               alt="Picture"
@@ -74,11 +74,11 @@ export default function Hero({ t, lang }) {
           </div>
 
           <div
-            className="-z-10 absolute -inset-1 blur-2xl rounded-3xl"
+            className="z-0 absolute inset-0 blur-3xl rounded-full"
             style={{
               background:
                 "radial-gradient(circle at 50% 50%, var(--accent-from) 0%, var(--accent-to) 100%)",
-              opacity: 0.25,
+              opacity: 0.55,
             }}
           ></div>
         </div>
