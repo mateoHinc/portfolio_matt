@@ -1,13 +1,13 @@
 export const PROFILE_TEXT = {
   es: {
-    role: "Desarrollador Web Frontend",
+    whoami: "¿Quien soy?",
     summary:
-      "Apasionado por crear interfaces modernas, accesibles y de alto rendimiento. Me gustan las animaciones sutiles, el diseño limpio y las buenas prácticas.",
+      "Soy un desarrollador frontend junior. Apasionado por crear interfaces modernas, accesibles, funcionales y centradas en la experiencia del usuario, combinando diseño y buenas prácticas de desarrollo. Disfruto construir secciones interactivas, landing pages atractivas y componentes reutilizables que se adapten a cualquier dispositivos.",
   },
   en: {
-    role: "Frontend Web Developer",
+    whoami: "Who am I?",
     summary:
-      "Passionate about building modern, accessible, and high-performance UIs. I enjoy subtle animations, clean design, and strong engineering practices.",
+      "I am a junior frontend developer. I am passionate about creating modern, accessible, functional interfaces focused on user experience, combining design and good development practices. I enjoy building interactive sections, attractive landing pages, and reusable components that adapt to any device.",
   },
 };
 
@@ -28,16 +28,16 @@ export const CONTACT = {
 
 export const CV = {
   es: {
-    url: "/cv/CV de Mateo Hincapie Giraldo v2.pdf",
+    url: "/cv/MATEO HINCAPIE GIRALDO CV ATS_6.pdf",
     filename: "Mateo_Hincapie_CV",
-    sizeMB: 0.279,
-    lastUpdated: "Oct 2025",
+    sizeMB: 0.064,
+    lastUpdated: "Nov 2025",
   },
   en: {
-    url: "/cv/Mateo Hincapie Giraldo CV.pdf",
+    url: "/cv/MATEO HINCAPIE GIRALDO CV ATS - EN.pdf",
     filename: "Mateo_Hincapie_CV",
-    sizeMB: 0.0587,
-    lastUpdated: "Oct 2025",
+    sizeMB: 0.069,
+    lastUpdated: "Nov 2025",
   },
 };
 
@@ -117,22 +117,22 @@ export const EXPERIENCE = [
 ];
 
 export const SKILLS = [
-  { name: "HTML", level: 70, logo: "/logos/html.svg" },
-  { name: "Javascript", level: 50, logo: "/logos/javascript.svg" },
-  { name: "CSS3", level: 50, logo: "/logos/css3.svg" },
+  { name: "HTML", level: 60, logo: "/logos/html.svg" },
+  { name: "Javascript", level: 40, logo: "/logos/javascript.svg" },
+  { name: "CSS3", level: 40, logo: "/logos/css3.svg" },
   { name: "PHP", level: 65, logo: "/logos/php.svg" },
-  { name: "Python", level: 50, logo: "/logos/python.svg" },
-  { name: "Java", level: 55, logo: "/logos/java.svg" },
-  { name: "TypeScript", level: 45, logo: "/logos/typescript.svg" },
-  { name: "Bootstrap", level: 55, logo: "/logos/bootstrap.svg" },
-  { name: "Vue JS", level: 55, logo: "/logos/vue.svg" },
-  { name: "React JS", level: 55, logo: "/logos/react.svg" },
-  { name: "Angular", level: 40, logo: "/logos/angular.svg" },
-  { name: "Tainwind CSS", level: 55, logo: "/logos/tailwind.svg" },
-  { name: "Git", level: 45, logo: "/logos/git.svg" },
+  { name: "Python", level: 40, logo: "/logos/python.svg" },
+  { name: "Java", level: 30, logo: "/logos/java.svg" },
+  { name: "TypeScript", level: 35, logo: "/logos/typescript.svg" },
+  { name: "Bootstrap", level: 45, logo: "/logos/bootstrap.svg" },
+  { name: "Vue JS", level: 45, logo: "/logos/vue.svg" },
+  { name: "React JS", level: 50, logo: "/logos/react.svg" },
+  { name: "Angular", level: 20, logo: "/logos/angular.svg" },
+  { name: "Tainwind CSS", level: 35, logo: "/logos/tailwind.svg" },
+  { name: "Git", level: 40, logo: "/logos/git.svg" },
   { name: "Linux", level: 30, logo: "/logos/linux.svg" },
-  { name: "MySQL", level: 50, logo: "/logos/mysql.svg" },
-  { name: "SQL Server", level: 50, logo: "/logos/sql.svg" },
+  { name: "MySQL", level: 40, logo: "/logos/mysql.svg" },
+  { name: "SQL Server", level: 40, logo: "/logos/sql.svg" },
   { name: "Word", level: 75, logo: "/logos/word.svg" },
   { name: "Excel", level: 75, logo: "/logos/excel.svg" },
   { name: "Power Point", level: 75, logo: "/logos/powerpoint.svg" },
@@ -163,6 +163,20 @@ export const PROJECTS = [
     tags: ["React JS", "Vite", "Tailwind", "TypeScript"],
     demo: "https://musicplayer-darktune.netlify.app/",
     repo: "https://github.com/mateoHinc/musicPlayerDarkTune",
+  },
+  {
+    title: {
+      es: "Catálogo de Ropa Ghostly.GW",
+      en: "Ghostly.GW clothing catalogue",
+    },
+    desc: {
+      es: "Ghostly.GW es una landing page moderna e interactiva diseñada para una marca de ropa urbana inspirada en el parkour y el freerun.",
+      en: "GhostlyGW is a modern and interactive landing page designed for an urban clothing brand inspired by parkour and freerunning.",
+    },
+    cover: "/covers_projects/ghostlygw_store.png",
+    tags: ["Vue JS 3", "Bootstrap 5", "HTML", "CSS", "Javascript"],
+    demo: "https://ghostlygw.netlify.app/",
+    repo: "https://github.com/mateoHinc/ghostly_gw_store",
   },
 ];
 

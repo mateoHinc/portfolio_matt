@@ -25,7 +25,7 @@ export default function Hero({ t, lang }) {
           className="mb-3 font-bold text-3xl sm:text-4xl md:text-5xl tracking-tight"
           style={{ color: "var(--accent-from)" }}
         >
-          {PROFILE_TEXT[lang].role}
+          {PROFILE_TEXT[lang].whoami}
         </h1>
         <p className={`mb-4 ${dark ? "text-neutral-400" : "text-gray-800"}`}>
           {PROFILE_TEXT[lang].summary}
