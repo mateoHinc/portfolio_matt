@@ -19,6 +19,8 @@ export const PROFILE = {
 };
 
 export const CONTACT = {
+  email:
+    "mailto:mateo.hincapie@hotmail.com?body=Hola,%20quiero%20hablar%20contigo.",
   facebook: "https://www.facebook.com/?locale=es_LA",
   instagram: "https://www.instagram.com/matt_hinc/",
   whatsapp: "https://wa.me/573245409415",
