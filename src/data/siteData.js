@@ -2,12 +2,12 @@ export const PROFILE_TEXT = {
   es: {
     whoami: "¿Quien soy?",
     summary:
-      "Soy un desarrollador frontend junior. Apasionado por crear interfaces modernas, accesibles, funcionales y centradas en la experiencia del usuario, combinando diseño y buenas prácticas de desarrollo. Disfruto construir secciones interactivas, landing pages atractivas y componentes reutilizables que se adapten a cualquier dispositivos.",
+      "Soy un desarrollador frontend en crecimiento. Apasionado por crear interfaces modernas, accesibles, funcionales y centradas en la experiencia del usuario, combinando diseño y buenas prácticas de desarrollo. Disfruto el aprendizaje continuo de nuevas tecnologías y aplicar buenas practicas.",
   },
   en: {
     whoami: "Who am I?",
     summary:
-      "I am a junior frontend developer. I am passionate about creating modern, accessible, functional interfaces focused on user experience, combining design and good development practices. I enjoy building interactive sections, attractive landing pages, and reusable components that adapt to any device.",
+      "I am a growing frontend developer. I am passionate about creating modern, accessible, functional, and user-experience-focused interfaces, combining design and good development practices. I enjoy continuously learning new technologies and applying best practices.",
   },
 };
 
@@ -218,8 +218,8 @@ export const I18N = {
       theme: "Tema",
       accent: "Acento",
     },
-    footer: (name) => `© ${new Date().getFullYear()} ${name}. Hecho con
-React, Tailwind y Framer Motion.`,
+    footer: (name) =>
+      `© ${new Date().getFullYear()} ${name}. Todo los derechos reservados.`,
   },
   en: {
     nav: {
@@ -255,8 +255,8 @@ React, Tailwind y Framer Motion.`,
       theme: "Theme",
       accent: "Accent",
     },
-    footer: (name) => `© ${new Date().getFullYear()} ${name}. Built with
-React, Tailwind and Framer Motion.`,
+    footer: (name) =>
+      `© ${new Date().getFullYear()} ${name}. All rights reserved.`,
   },
 };
 
