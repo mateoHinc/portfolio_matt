@@ -102,16 +102,16 @@ export const EXPERIENCE = [
       en: "Web Developer - Fullstack",
     },
     company: { es: "Interactuando con la 9", en: "Interacting with the 9" },
-    period: { es: "Feb 2019 - Jul 2019", en: "Feb 2019 - Jul 2019" },
+    period: { es: "Ene 2019 - Feb 2020", en: "Ene 2019 - Feb 2020" },
     location: { es: "Medellín (Remoto)", en: "Medellín (Remoto)" },
     achievements: {
       es: [
-        "Desarrollé una aplicación web para gestionar y compartir contenido audiovisual en una comunidad sin ánimo de lucro en Medellín, usando PHP y MySQL.",
-        "Implementé control de usuarios, sistema de descargas y colaboré con lideres comunitarios para el levantamiento de requisitos y validación funcional.",
+        "Desarrollar con un equipo de trabajo una aplicación web para gestionar y compartir contenido audiovisual en una comunidad sin ánimo de lucro en Medellín, usando PHP, Javascript y MySQL.",
+        "Implementar control de usuarios, sistema de descargas y colaborar con lideres comunitarios para el levantamiento de requisitos y validación funcional.",
       ],
       en: [
-        "I developed a web application to manage and share audiovisual content in a non-profit community in Medellín, using PHP and MySQL.",
-        "I implemented user control, a download system, and collaborated with community leaders to gather requirements and perform functional validation.",
+        "Develop with a team a web application to manage and share audiovisual content in a non-profit community in Medellín, using PHP, Javascript and MySQL.",
+        "Implement user control, a download system, and collaborate with community leaders for requirements gathering and functional validation.",
       ],
     },
     tech: ["PHP", "Javascript", "Bootstrap", "MySQL", "Github"],
